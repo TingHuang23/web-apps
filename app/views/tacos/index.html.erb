@@ -1,0 +1,10 @@
+<% fillings = ["Carnitas", "Pork", "Fish", "Veggie", "Shrimp"] %>
+<%#this is ruby%>
+<h1> I LOVE TACOs! </h1>
+<p> There are so many kinds of great tacos that you can choose: </p>
+
+<ul>
+  <% for filling in fillings %>
+    <li> <%=filling%> Taco </li>
+  <% end %>
+</ul>
